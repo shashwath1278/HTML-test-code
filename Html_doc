@@ -1,0 +1,96 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Shashwath</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .intro p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+        .intro a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        .intro a:hover {
+            text-decoration: underline;
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .images img {
+            max-width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .images img:hover {
+            transform: scale(1.1);
+        }
+        .facts {
+            max-width: 600px;
+            text-align: center;
+        }
+        .facts h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .facts ul {
+            list-style: none;
+            padding: 0;
+        }
+        .facts li {
+            font-size: 1.2em;
+            margin: 10px 0;
+            background: #333;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, this is Shashwath</h1>
+    <div class="intro">
+        <p>Welcome to my personal webpage! I am Shashwath, a passionate engineering student at MSRIT, Bangalore, with a keen interest in cybersecurity. Feel free to connect with me on <a href="https://www.linkedin.com/in/shashwath-prabhu" target="_blank">LinkedIn</a>.</p>
+    </div>
+    <div class="images">
+        <img src="https://wallpapers.com/images/hd/cool-devil-hacker-wcwuf1bxuqwyuf5k.jpg" alt="Hacking Image 1">
+        
+    </div>
+    <div class="facts">
+        <h2>Interesting Facts about Hacking</h2>
+        <ul>
+            <li>The term "hacker" originally referred to a skilled programmer.</li>
+            <li>In 1999, a hacker known as Mafiaboy brought down major websites including Yahoo!, eBay, and CNN.</li>
+            <li>Kevin Mitnick, once one of the FBI's Most Wanted, is now a security consultant.</li>
+            <li>Social engineering is one of the most common hacking techniques, involving tricking people into revealing confidential information.</li>
+        </ul>
+    </div>
+</body>
+</html>
